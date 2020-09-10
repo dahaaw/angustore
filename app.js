@@ -14,7 +14,6 @@ app.use('/api/products',productsRoute);
 app.use('api/users',usersRoute);
 
 
-
 app.use(cors({
     origin:"*",
     methods:['GET','POST','PATCH','DELETE','PUT'],
